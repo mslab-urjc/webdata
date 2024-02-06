@@ -1,0 +1,21 @@
+The morphological analysis of dendritic spines is an important challenge for the
+neuroscientific community. Most state-of-the-art techniques rely on user-supervised
+algorithms to segment the spine surface, especially those designed for light microscopy
+images. Therefore, processing large dendritic branches is costly and time-consuming.
+Although deep learning (DL) models have become one of the most commonly used
+tools in image segmentation, they have not yet been successfully applied to this
+problem. In this article, we study the feasibility of using DL models to automatize
+spine segmentation from confocal microscopy images. Supervised learning is the most
+frequently used method for training DL models. This approach requires large data sets of
+high-quality segmented images (ground truth). As mentioned above, the segmentation of
+microscopy images is time-consuming and, therefore, in most cases, neuroanatomists
+only reconstruct relevant branches of the stack. Additionally, some parts of the dendritic
+shaft and spines are not segmented due to dyeing problems. In the context of this
+research, we tested themost successful architectures in the DL biomedical segmentation
+field. To build the ground truth, we used a large and high-quality data set, according to
+standards in the field. Nevertheless, this data set is not sufficient to train convolutional
+neural networks for accurate reconstructions. Therefore, we implemented an automatic
+preprocessing step and several training strategies to deal with the problems mentioned
+above. As shown by our results, our system produces a high-quality segmentation in
+most cases. Finally, we integrated several postprocessing user-supervised algorithms in
+a graphical user interface application to correct any possible artifacts.
