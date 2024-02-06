@@ -1,0 +1,12 @@
+We present an Open-source library called gVirtualXRay to simulate realistic X-ray images in realtime. It implements the
+attenuation law (also called Beer-Lambert) on GPU. It takes into account the polychromatism of the beam spectra as well as the
+finite size of X-ray tubes. The library is written in C++ using modern OpenGL. It is fully portable and works on most common
+desktop/laptop computers. It has been tested on MS Windows, Linux, and Mac OS X. It supports a wide range of windowing
+solutions, such as FLTK, GLUT, GLFW3, Qt4, and Qt5. The library also offers realistic visual rendering of anatomical
+structures, including bones, liver, diaphragm and lungs. The accuracy of the X-ray images produced by gVirtualXRay’s
+implementation has been validated using Geant4, a well established state-of-the-art Monte Carlo simulation toolkit developed
+by CERN. gVirtualXRay can be used in a wide range of applications where fast and accurate X-ray simulations from polygon
+meshes are needed, e.g. medical simulators for training purposes, simulation of tomography data acquisition with patient
+motion to include artefacts in reconstructed CT images, and deformable registration. Our application example package includes
+real-time respiration and X-ray simulation, CT acquisition and reconstruction, and iso-surfacing of implicit functions using
+Marching Cubes
