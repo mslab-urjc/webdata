@@ -1,0 +1,1 @@
+<?php $id=333; include("../../publi.php"); ?>
